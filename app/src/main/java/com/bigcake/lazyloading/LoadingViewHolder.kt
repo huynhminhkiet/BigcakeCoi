@@ -1,4 +1,4 @@
-package com.bigcake
+package com.bigcake.lazyloading
 
 import android.support.v7.widget.RecyclerView
 import android.view.View

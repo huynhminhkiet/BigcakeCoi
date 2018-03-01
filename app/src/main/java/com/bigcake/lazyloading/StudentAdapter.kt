@@ -1,9 +1,10 @@
-package com.bigcake
+package com.bigcake.lazyloading
 
 import android.content.Context
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import com.bigcake.R
 
 /**
  * Created by Administrator on 24/02/2018.
