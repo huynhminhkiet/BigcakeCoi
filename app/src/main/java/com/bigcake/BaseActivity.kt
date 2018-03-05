@@ -15,6 +15,11 @@ open class BaseActivity: AppCompatActivity() {
         Log.d("LOG " + javaClass.simpleName, "onCreate")
     }
 
+    override fun onRestart() {
+        super.onRestart()
+        Log.d("LOG " + javaClass.simpleName, "onRestart")
+    }
+
     override fun onStart() {
         super.onStart()
         Log.d("LOG " + javaClass.simpleName, "onStart")
@@ -28,5 +33,11 @@ open class BaseActivity: AppCompatActivity() {
     override fun onDestroy() {
         super.onDestroy()
         Log.d("LOG " + javaClass.simpleName, "onDestroy")
+    }
+
+    override fun onRestoreInstanceState(savedInstanceState: Bundle?) {
+        super.onRestoreInstanceState(savedInstanceState)
+        Log.d("LOG " + javaClass.simpleName, "onRestoreInstanceState")
+
     }
 }
