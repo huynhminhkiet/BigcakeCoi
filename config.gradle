@@ -1,0 +1,18 @@
+ext {
+  versions = [
+
+      rxAndroid   : '1.2.1',
+      rxJava      : '1.2.4',
+      rxPermission: "0.9.4",
+      rxViper     : '1.0.0-rc3'
+  ]
+
+  libraries = [
+
+      rxAndroid   : "io.reactivex:rxandroid:${versions.rxAndroid}",
+      rxJava      : "io.reactivex:rxjava:${versions.rxJava}",
+      rxPermission: "com.tbruyelle.rxpermissions2:rxpermissions:${versions.rxPermission}",
+      rxViper     : "com.dzaitsev.rxviper:rxviper:${versions.rxViper}"
+
+  ]
+}
