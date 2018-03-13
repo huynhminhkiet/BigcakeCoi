@@ -16,9 +16,11 @@
     <activity android:name=".fragment.FgActivity">
     </activity>
     <activity android:name=".rxpermission.PermissionActivity">
-
     </activity>
     <activity android:name=".viper.ViperActivity">
+
+    </activity>
+    <activity android:name=".rxsubject.RxSubjectActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN"/>
 
