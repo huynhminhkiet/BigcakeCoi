@@ -21,7 +21,7 @@ class GreenFragment: BaseFragment() {
             val newFragment = YellowFragment()
             val transaction = activity.supportFragmentManager.beginTransaction()
 
-            transaction.add(R.id.fragmentContainer, newFragment)
+            transaction.replace(R.id.fragmentContainer, newFragment)
             transaction.addToBackStack("t2")
 
             transaction.commit()
