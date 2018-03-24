@@ -18,7 +18,6 @@
     <activity android:name=".rxpermission.PermissionActivity">
     </activity>
     <activity android:name=".viper.ViperActivity">
-
     </activity>
     <activity android:name=".rxsubject.RxSubjectActivity">
       <intent-filter>
@@ -28,6 +27,8 @@
       </intent-filter>
     </activity>
     <activity android:name=".loadimages.LoadImagesActivity"/>
+    <activity android:name=".multiscreen.FuckLayoutActivity">
+    </activity>
   </application>
 
 </manifest>
